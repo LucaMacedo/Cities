@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Deutsche und italienische Städte</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="grid">
+
+  <script>
+    var num = 0;
+
+    function numbers(num) {
+      num = prompt("Geben Sie Zahlen ein");
+      if (num == 2122) {
+        window.location = "pages/muenchen.html";
+        return "Sie werden zur Münchenseite weitergeleitet";
+      } else
+        return "Es tretet keine Veränderung ein";
+    }
+  </script>
+
+
+  <header id="headerChild" class="hintergrundfarbe">
+    <h1 class="ueberschriften"> Deutsche und italienische Städte</h1>
+  </header>
+  <nav class="menu">
+    <ul class="menu">
+      <li class="menu"><a class="menu" href="pages/venedig.html"> Venedig </a></li>
+      <li class="menu"><a class="menu" href="pages/muenchen.html"> München </a></li>
+      <li class="menu"><a class="menu" href="pages/stuttgart.html"> Stuttgart </a></li>
+    </ul>
+  </nav>
+
+  <article class="grid">
+    <aside class="text">
+      <header id="headerAside" class="hintergrundfarbe">
+        <h2> Für mehr Informationen!</h2>
+      </header>
+      <p class="asideelement">Falls Sie Interesse über einen Wikipedia-Artikel dieser Städte haben, klicken Sie auf einen dieser Links:<br />
+        <a href="https://de.wikipedia.org/wiki/Venedig">Venedig</a><br />
+        <a href="https://de.wikipedia.org/wiki/M%C3%BCnchen">München</a><br />
+        <a href="https://de.wikipedia.org/wiki/Stuttgart">Stuttgart</a><br />
+      </p>
+      <img id="deutscheFlagge" src="img/deutsche_flagge.jpg" alt="deutsche Flagge" />
+      <a href="https://de.wikipedia.org/wiki/Flagge_Italiens"><img id="italienischeFlagge" src="img/italienische_flagge.jpg" alt="italienische Flagge"></a>
+      <br />
+      <p class="asideelement"><i>Auf die italienische Flagge klicken, um mehr über dessen Geschichte zu erfahren!</i></p>
+      <form>
+        <input type="button" value="Mehr lesen!" onclick="javascript:alert(numbers(num) );">
+      </form>
+    </aside>
+
+    <section class="size" id="section1">
+      <h3> Was zeigen die folgenden Seiten?</h3>
+      <p class="farbe">
+        Die folgenden Seiten stellen die größten Sehenswürdigkeiten der jeweiligen Städte vor und jeweils auch die wichtigsten Infos über diese.
+      </p>
+    </section>
+    <section class="size" id="section2">
+      <h4>Was folgt jetzt?</h4>
+      <p class="farbe">
+        Damit es Ihnen nicht langweilig wird, sollen Sie definitiv die weiteren Seiten anschauen.<br />
+        Es folgt noch Lorem ipsum:<br />
+      <pre>Lorem ipsum dolor sit amet,</pre> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
+      Es folgt ein weiterer Blindtext, welcher Small-Letter heißt:<br />
+      <pre>dieser text hat eigentlich gar keinen wirklichen inhalt.</pre> aber er hat auch keine relevanz, und deswegen ist das egal. er dient lediglich als platzhalter.
+      um mal zu zeigen, wie diese stelle der seite aussieht, wenn ein paar zeilen vorhanden sind. ob sich der text dabei gut fühlt, weiß ich nicht.
+      ich schätze, eher nicht, denn wer fühlt sich schon gut als platzhalter. aber irgendwer muss diesen job ja machen und deshalb kann ich es nicht ändern .
+      ich könnte dem text höchstens ein bisschen gut zureden, dass er auch als platzhalter eine wichtige rolle spielt und durchaus gebraucht wird.
+      könnte mir vorstellen, dass ihm das gut tut. denn das gefühl gebraucht zu werden tut doch jedem gut, oder? klar, er ist austauschbar.
+      das darf ich ihm natürlich nicht verraten. denn austauschbar zu sein, dass ist schrecklich. austauschbar zu sein bedeutet ja eigentlich,
+      dass nicht man selbst, sondern einfach irgendjemand oder irgendwas an der stelle gebraucht wird. somit würde mein erstes argument,
+      man braucht dich, nicht mehr ziehen, und das zuvor erzeugte gute gefühl des textes wäre zunichte gemacht. das will ich nicht.
+      also bitte nix verraten, ja? aber vielleicht merkt er es ja nicht. das wäre gut, denn wer hat schon lust einen deprimierten blindtext auf seiner seite zu platzieren.
+      was würde denn das für einen eindruck machen. das will ja keiner lesen. somit wäre er dann ein für alle mal tatsächlich völlig nutzlos. das wäre sein todesurteil.
+      soweit wollen wir es doch nicht kommen lassen, oder? es sei denn, und das ist möglich, er würde wiedergeboren und käme als, naja, sagen wir als witz,
+      und ein textleben später vielleicht als bildzeitungsartikel auf die textwelt. irgendwann wäre er vielleicht sogar ein text im lexikon.
+      dann hätten wir ihn ja sogar weitergebracht in seiner entwicklung. klingt gar nicht schlecht, oder? trotzdem bin ich der meinung,
+      man sollte ihn nicht bewusst dort hin treiben. er hat ein recht darauf, sich selbst zu entwickeln. und zwar in genau dem tempo, das ihm gefällt.
+      und bis es soweit ist, nehme ich ihn eben an, wie er ist. als einfachen blindtext ohne wirklichen inhalt.
+    </section>
+
+
+  </article>
+
+  <footer class="hintergrundfarbe">
+    &copy; 2022 all rights reserved
+  </footer>
+
+</body>
+
+</html>

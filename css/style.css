@@ -1,0 +1,138 @@
+body.grid {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 12.5% 87.5%;
+  grid-template-areas:
+    "nav header"
+    "nav article"
+    "footer footer"
+}
+
+article.grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas:
+    "section1 aside"
+    "section2 aside"
+}
+
+#section1 {
+  grid-area: section1;
+}
+
+#section2 {
+  grid-area: section2;
+}
+
+h1.ueberschriften {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  height: min-content;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#changePosition {
+  position: relative;
+  left: 8px;
+}
+
+p.farbe {
+  color: green;
+  margin-bottom: 10px;
+}
+
+p.asideelement{
+  color: green;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p::first-letter {
+  font-size: 22.5px;
+  color: red;
+}
+
+#headerChild {
+  grid-area: header;
+}
+
+#headerAside {
+  grid-area: headeraside;
+  width: inherit;
+}
+
+nav.menu {
+  grid-area: nav;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+li.menu {
+  display: block;
+  width: 12vw;
+  height: 4vh;
+}
+
+a.menu {
+  background: rgb(255, 0, 0);
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+a.menu:hover {
+  background: rgb(0, 255, 0);
+  padding: 6px 10px;
+}
+
+header.hintergrundfarbe {
+  background-color: blue;
+}
+
+footer.hintergrundfarbe {
+  grid-area: footer;
+  background-color: orange;
+}
+
+aside.text {
+  grid-area: aside;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "headeraside rest";
+  height: inherit;
+}
+
+section.size {
+  margin: 50px;
+}
+
+#muenchenBild {
+  float: left;
+  width: 640px;
+  height: 433px;
+}
+
+#stuttgartBild {
+  float: right;
+  width: 532px;
+  height: 354px;
+}
+
+#venedig {
+  float: left;
+  width: 640px;
+  height: 480px;
+}
+
+#deutscheFlagge {
+  float: left;
+  width: 160px;
+  height: 107px;
+}
+
+#italienischeFlagge {
+  float: right;
+  width: 160px;
+  height: 107px;
+}
